@@ -289,10 +289,10 @@ li{
         width: 60%;
     }
     .form-bg::before {
-        top: -200px;
+        top: -100px;
     }   
     .form-bg {
-        padding: 0px 0px 80px;
+        padding: 100px 0px 80px;
     } 
     .banner-wrapper >h1 {
         font-size: 32px;
@@ -339,6 +339,10 @@ li{
     .swiper {
         width: 100%;
         height: auto;
+    }
+    .banner-wrapper > p {
+        font-size: 16px;
+        line-height: 26px;
     }
 }
 @media screen and (max-width: 400px){
